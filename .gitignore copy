@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# React-specific
+*.cache
+.cache/
+coverage/
+
+# Optional: ignore frontend build in backend
+/frontend/build/
+
+# Optional: ignore backend build in frontend
+/backend/dist/
+
+# Optional: socket.io temp files (if any)
+*.sock
+
+# Optional: SQLite or other DB files
+*.sqlite
+*.db
+
+# Optional: Docker volumes
+docker-volume/
+
+# Optional: PM2 logs
+pids
+*.pid
+*.seed
